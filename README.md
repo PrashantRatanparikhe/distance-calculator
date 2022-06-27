@@ -4,11 +4,14 @@ With the help of this application you can calculate the Hamming distance (substi
 
 ## Screenshots
 
-![Home Page](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29311145-b3c05314eed7c7d88219dd8a78223fa5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T104251Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=2601c09d6e9716bb8efe6ce40fdc2c5eba86f4e8ca5946b4e804057b04ded1aa)
+__User Interface to calculate distance from Browser__
+![Home Page](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29327961-f382ebf84cbb5058c53be4353519b1d7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T155916Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=4863f03bf6389750db80f4812663fcc947aaebb81980105261a7afa5f40e2e8f)
 
-![Home Page with form error](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29311261-8faba140ff036a8abecbfa8c185ca274.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T104410Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=aa0f7c54b5cafa2a8f6ea086817000615a738314c4e1004097f9afe86ccdb079)
+__Input Field Validation Error:__
+![Home Page with form error](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29328002-e6406dc4ba12185c417e961bf8fb2997.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T160002Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=20e745bee01a43ef33b640114799ff6722ea639a5314c929093417dad2560da5)
 
-![Home Page with response](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29311350-c39ac0dd7ca3229495f43b2cbc7ac8a8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T104546Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4f7b2e064296aff01fe11db8e18291c22e0cae7dedbec1d999c71695e0072ce)
+__Response__
+![Home Page with response](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29328038-fc3bdde343a41550e486a95635e0f95b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T160040Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=add963fa55af1224fdac43e8d402a9210de303048f5dda4fa2f24e1281bfb372)
 
 ## Installation
 Here is how you can run the project locally:
@@ -48,7 +51,7 @@ Here is how you can run the project locally:
 4. Input second string and hit Enter.
 5. You should see the distance calculation of both the strings in the result.
 
-![CLI Output](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29312548-c1eb44beb76fa971241955f669de6ea6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T110935Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=31d5085a3a316594e7df2c36ac284b28b7c42fc55fc4c2e7dc691af1da647979)
+![CLI Output](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29328149-d25f705684d6f97db76f95c579b93445.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T160228Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=0ad3639fa8868b348cb69a87facf9ed21696a3271bfc1ce0fe880f35964e4080)
 
 ## Unit Tests
 
@@ -60,7 +63,7 @@ Here is how you can run the project locally:
 	```sh
 	 php artisan test
 	```
-![Unit Test](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29312374-b811b2fc99b881c4cab8f9d1eebd9f37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T110608Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=4c879fcdc5de5098b5913da370f031b7155523e401aeda44b88cb31cec0c5a38)
+![Unit Test](https://awesomescreenshot.s3.amazonaws.com/image/1507139/29328247-d527b19f40bb8a33d7911b0600541e44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220627T160405Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=ebd854e2191481a5214ca2889b40f97ffaf243d3f85c5b77293f0d40cc7b99b1)
 
 ## Folder Structure
 
