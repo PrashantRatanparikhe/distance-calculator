@@ -4,6 +4,10 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
+/**
+ * @param string $string_one
+ * @param string $string_two
+ */
 class Index extends FormRequest
 {
     /**
