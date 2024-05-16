@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Index as IndexRequest;
-use Codifun\Distance\Helpers\Distance as DistanceHelper;
+use App\Traits\Distance as DistanceHelper;
 
 class IndexController extends Controller
 {
